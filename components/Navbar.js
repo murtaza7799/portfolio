@@ -30,7 +30,7 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <div className="space-x-8 hidden md:block">
+          <div className="space-x-8 md:block">
             <Link href="/projects">
               <a
                 className={`text-base  ${router.asPath === "/projects"

@@ -8,8 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Waleed Shahid - Full Stack Developer",
-    description: `Full Stack Developer with 3+ Years Experience. Worked on 50+ projects, Top Rated Freelancer on Upwork, Thinkific Certified Expert.`,
+    title: "Waleed Shahid - Thinkific Expert",
+    description: `I've been working with Thinkific for over 3 years now. I've worked with over 50 clients and have built over 100 course websites on Thinkific. I've worked with clients like NAS Academy, TwinRay Academy, theChapter Academy, and many more.`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,
@@ -23,11 +23,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://waleedshahid.com${router.asPath}`}
+          content={`https://thinkific.waleedshahid.com${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://waleedshahid.com${router.asPath}`}
+          href={`https://thinkific.waleedshahid.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Waleed Shahid" />

@@ -1,5 +1,4 @@
 import React from "react";
-import CountUp from "react-countup";
 import Contact from "./Contact";
 import { useTheme } from "next-themes";
 import Testimonials from "./Testimonials";
@@ -8,9 +7,9 @@ export default function Thinkific() {
     const { theme } = useTheme()
     return (
         <section className="bg-white dark:bg-gray-800">
-            <header className="max-w-6xl mx-auto my-10 text-center bg-white dark:bg-gray-800">
+            <header className="max-w-6xl mx-auto my-10 bg-white dark:bg-gray-800">
                 <h3 className="text-2xl md:text-5xl font-black mx-20 my-10 md:leading-relaxed">
-                    Need Custom Development/Design for your Thinkific Website?
+                    Looking for a Thinkific Expert?
                 </h3>
                 <img
                     className="block mx-auto w-24 h-22 md:w-48 md:h-46"
@@ -23,37 +22,37 @@ export default function Thinkific() {
                 </svg>
             </div>
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
-                <div className="max-w-6xl mx-auto p-20 text-center dark:bg-gray-900">
+                <div className="max-w-6xl mx-auto p-20 dark:bg-gray-900">
                     <p className="text-lg pb-10">
-                        As a certified Thinkific Development Expert, I can develop any custom feature or design for your Thinkific site. With Full Stack Development Skills we can create a smooth experience for your customers which will help convert more and increase engagement with your content.
+                        As an Official Thinkific Expert Partner, I can develop any custom feature or design for your Thinkific site. With Full Stack Development Skills I can create a smooth experience for your customers which will help convert more and increase engagement with your content.
                     </p>
                     <div className="flex flex-col md:flex-row justify-around py-6 mt-4 border-4 border-white">
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="100" duration="2" />+
+                                100+
                             </p>
-                            Features Developed
+                            Custom Features Developed
                         </div>
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="30" duration="2" />+
+                                100%
                             </p>
                             Happy Clients
                         </div>
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="30" duration="2" />+
+                                30+
                             </p>
-                            Sites Built
+                            Thinkific Sites Built
                         </div>
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="50" duration="2" />M+
+                                $10M+
                             </p>
-                            In Client Sales
+                            In Course Sales
                         </div>
                     </div>
                 </div>
@@ -78,7 +77,7 @@ export default function Thinkific() {
                             </h1>
                             <span className="block w-1/6 mx-auto border-b-2 border-[#F59E0B]"></span>
                             <p className="text-lg py-4">
-                                I develop a complete solution for any of your custom Apps/Feature needs. I develop Apps through Thinkific APIs, Zapier and our Full Stack skills.
+                                I can develop a complete solution for any of your custom needs. I can develop Apps through Thinkific APIs, Zapier and Full Stack skills.
                             </p>
                         </div>
                         <div className="m-4">
@@ -124,23 +123,23 @@ export default function Thinkific() {
                         <div className="py-10 text-lg">
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Thinkific APIs Expert:</strong> I are one of the very few Thinkific Experts who really shine at low-level Thinkific APIs development
+                                <strong>Thinkific APIs Expert:</strong> I am one of the very few Thinkific Experts who really shine at low-level Thinkific development
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Best Practices:</strong> I take every detail seriously, and ensure the quality of our work matches industry standard
+                                <strong>Best Practices:</strong> I take every detail seriously, and ensure the quality of my worke exceeds your expectations
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Error-free Code:</strong> I test our code rigorously with all possible scenarios before making the project live
+                                <strong>Error-free Code:</strong> I test my code rigorously with all possible scenarios before making the project live
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Experience:</strong> I bring alot of experience from various industries at various levels
+                                <strong>Experience:</strong> I bring significant amount of experience from various industries at various levels
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Straight-forward:</strong> I do not make any commitments if I am not 100% sure about the outcome. I value your time!
+                                <strong>Commitment:</strong> I do not make any commitments if I am not 100% sure about the outcome. I value your time!
                             </p>
                         </div>
                     </div>

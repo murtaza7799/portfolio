@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <ContainerBlock
       title="Waleed Shahid - Full Stack Developer"
-      description="Thinkific Expert Developer with 4+ Years Experience. Worked on 50+ projects, Top Rated Freelancer on Upwork, Thinkific Certified Expert."
+      description="I've been working with Thinkific for over 3 years now. I've worked with over 50 clients and have built over 100 course websites on Thinkific. I've worked with clients like NAS Academy, TwinRay Academy, theChapter Academy, and many more."
     >
       <Thinkific />
     </ContainerBlock>
