@@ -8,12 +8,12 @@ export default function Thinkific() {
     return (
         <section className="bg-white dark:bg-gray-800">
             <header className="max-w-6xl mx-auto my-10 bg-white dark:bg-gray-800">
-                <h3 className="text-2xl md:text-5xl font-black mx-20 my-10 md:leading-relaxed">
-                    Looking for a Thinkific Expert?
+                <h3 className="text-2xl md:text-5xl text-center font-black mx-20 my-10 md:leading-relaxed">
+                    Official Thinkific Expert for Custom Development, Integrations & Designs for your Thinkific Website
                 </h3>
                 <img
                     className="block mx-auto w-24 h-22 md:w-48 md:h-46"
-                    src="/Thinkific-Experts-Badge.webp"
+                    src= {theme === "dark" ? "/Thinkific-Experts-Badge.webp" : "/Thinkific-Experts-Badge-White.png"}
                 />
             </header>
             <div className="block py-6 md:-my-4 md:py-0">
@@ -23,8 +23,8 @@ export default function Thinkific() {
             </div>
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
                 <div className="max-w-6xl mx-auto p-20 dark:bg-gray-900">
-                    <p className="text-lg pb-10">
-                        As an Official Thinkific Expert Partner, I can develop any custom feature or design for your Thinkific site. With Full Stack Development Skills I can create a smooth experience for your customers which will help convert more and increase engagement with your content.
+                    <p className="text-lg text-center pb-10">
+                        As an Official Thinkific Expert Partner, I can develop complex custom features, integrations, design, and sitebuilder sections for your Thinkific site. With Full Stack Development, and Design Skills I can create a Seamless experience for your customers which will help convert more and increase engagement with your content.
                     </p>
                     <div className="flex flex-col md:flex-row justify-around py-6 mt-4 border-4 border-white">
                         <div>
@@ -36,9 +36,9 @@ export default function Thinkific() {
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                100%
+                                30+
                             </p>
-                            Happy Clients
+                            Happy Thinkific Clients
                         </div>
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
@@ -46,13 +46,6 @@ export default function Thinkific() {
                                 30+
                             </p>
                             Thinkific Sites Built
-                        </div>
-                        <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
-                        <div>
-                            <p className="text-3xl font-black md:text-5xl py-2">
-                                $10M+
-                            </p>
-                            In Course Sales
                         </div>
                     </div>
                 </div>
@@ -113,7 +106,7 @@ export default function Thinkific() {
             <div className="max-w-6xl mx-auto">
                 <div className="flex flex-col-reverse lg:flex-row justify-center items-center my-10 lg:my-20">
                     <img
-                        className="hidden lg:block w-1/3 rounded-md mx-auto shadow-md"
+                        className="lg:block w-1/3 rounded-md mx-auto shadow-md"
                         src="/t-badge-gray.jpg"
                     />
                     <div className="p-4 lg:p-20 lg:ml-20">
@@ -121,26 +114,21 @@ export default function Thinkific() {
                             Why Hire Me?
                         </h3>
                         <div className="py-10 text-lg">
-                            <p>
-                                <span className="px-2">{"->"}</span>
+                            <li className="py-2">
                                 <strong>Thinkific APIs Expert:</strong> I am one of the very few Thinkific Experts who really shine at low-level Thinkific development
-                            </p>
-                            <p>
-                                <span className="px-2">{"->"}</span>
+                            </li>
+                            <li className="py-2">
                                 <strong>Best Practices:</strong> I take every detail seriously, and ensure the quality of my worke exceeds your expectations
-                            </p>
-                            <p>
-                                <span className="px-2">{"->"}</span>
+                            </li>
+                            <li className="py-2">
                                 <strong>Error-free Code:</strong> I test my code rigorously with all possible scenarios before making the project live
-                            </p>
-                            <p>
-                                <span className="px-2">{"->"}</span>
+                            </li>
+                            <li className="py-2">
                                 <strong>Experience:</strong> I bring significant amount of experience from various industries at various levels
-                            </p>
-                            <p>
-                                <span className="px-2">{"->"}</span>
+                            </li>
+                            <li className="py-2">
                                 <strong>Commitment:</strong> I do not make any commitments if I am not 100% sure about the outcome. I value your time!
-                            </p>
+                            </li>
                         </div>
                     </div>
                 </div>

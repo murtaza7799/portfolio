@@ -8,7 +8,7 @@ export default function Contact({ bg }) {
                 <div className="flex flex-col lg:flex-row justify-center items-center my-10">
                     <div className="p-4 lg:p-20">
                         <h3 className="text-3xl lg:text-5xl font-bold">
-                            Get in Touch, Let's Talk
+                            Get in Touch
                         </h3>
                         <div className="py-10 text-xl">
                             <p className="py-2">
@@ -33,7 +33,7 @@ export default function Contact({ bg }) {
                     </div>
                     <img
                         className="lg:block w-1/3 rounded-md mx-auto border-2 border-gray-50 shadow-md"
-                        src="/self.jpg"
+                        src="/waleedshahid.png"
                     />
                 </div>
             </div>
