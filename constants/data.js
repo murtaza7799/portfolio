@@ -1,31 +1,21 @@
 const userData = {
   githubUsername: "iwaleedshahid",
   name: "Waleed Shahid",
-  designation: "Full Stack Developer",
+  designation: "Full Stack Developer - Thinkific Expert",
   avatarUrl: "/avatar.jpg",
-  email: "waleed@nomist.io",
+  email: "contact@waleedshahid.com",
   phone: "+8609094885",
-  address: "Lahore, Punjab, Pakistan.",
+  address: "Lahore, Pakistan.",
   projects: [
     {
       title: "StudyPass",
-      link: "https://explore.studypass.com",
+      link: "https://studypass.com",
       imgUrl: "/studypass.png",
     },
     {
       title: "Positive Intelligence",
-      link: "https://learn.positiveintelligence.com",
+      link: "https://positiveintelligence.com",
       imgUrl: "positiveintelligence.jpeg",
-    },
-    {
-      title: "Ann Boothello",
-      link: "https://annboothello.com",
-      imgUrl: "/annboothello.png",
-    },
-    {
-      title: "My Family Learning Hub",
-      link: "https://thefamilylearninghub.thinkific.com",
-      imgUrl: "/My-Family-Learning-Hub.png",
     },
     {
       title: "Educata",
@@ -35,22 +25,12 @@ const userData = {
     {
       title: "TwinRay Academy",
       link: "https://learn.twinray.com",
-      imgUrl: "TwinRay-Academy-School-of-Divinity.png",
-    },
-    {
-      title: "The Brand Stylist Academy",
-      link: "https://thebrandstylist.thinkific.com",
-      imgUrl: "brandstylistacademy.jpeg",
-    },
-    {
-      title: "Master The Media",
-      link: "https://masterthemedia.thinkific.com",
-      imgUrl: "masterthemedia.jpeg",
+      imgUrl: "TwinRay Academy Dashboard.png",
     },
     {
       title: "theChapter Academy",
       link: "https://thechapter.academy",
-      imgUrl: "thechapter.jpeg",
+      imgUrl: "thechapter.png",
     }
   ],
   experience: [
@@ -66,36 +46,29 @@ const userData = {
       company: "theChapter Academy",
       year: "2022",
       companyLink: "https://www.thechapter.academy",
-      desc: "Developed custom Checkout, Invoicing, CRM, and Webinar Registrations with Saudi Local Systems"
+      desc: "Developed custom Checkout, Invoicing, CRM, and Webinar Registrations with Local Systems"
     },
     {
       title: "Thinkfic Design Contract",
       company: "TwinRay Academy.",
       year: "2022",
       companyLink: "https://learn.twinray.com",
-      desc: "Redesign and develop the thinkific website of TwinRay Academy."
+      desc: "Design and develop the thinkific website of TwinRay Academy. Built a custom library of sellable videos."
     },
     {
-      title: "Sales Page Contract",
+      title: "Sales Page Design Contract",
       company: "Master The Media",
       year: "2021",
       companyLink: "https://masterthemedia.co",
-      desc: "Freelance contract to design sales pages for a signature course."
+      desc: "Freelance contract to design sales pages for a signature course in the Media industry."
     },
     {
       title: "Frontend Developer",
-      company: "StudyPass.",
+      company: "StudyPass",
       year: "2021",
       companyLink: "https://studypass.com",
-      desc: "A Part-time contract where I lead the technical side of Thinkific LMS. We plan, and excute new features and experience frequently"
-    },
-    {
-      title: "Website Development Contract",
-      company: "Ann Boothello.",
-      year: "2020",
-      companyLink: "https://annboothello.com",
-      desc: "Freelance contract to develop and design the whole website from scratch."
-    },
+      desc: "Developed the Frontend of the StudyPass website on Thinkific. Added tons of custom features and design elements."
+    }
   ],
   testimonials: [
     {
@@ -127,8 +100,7 @@ const userData = {
     "/",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/iamwaleedshahid/",
-    github: "https://github.com/iamwaleedshahid",
-    instagram: "https://instagram.com/waleedshahid321"
+    github: "https://github.com/iamwaleedshahid"
   },
 };
 
