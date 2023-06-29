@@ -1,5 +1,4 @@
 import React from "react";
-import Contact from "./Contact";
 import { useTheme } from "next-themes";
 import Testimonials from "./Testimonials";
 
@@ -133,7 +132,6 @@ export default function Thinkific() {
                     </div>
                 </div>
             </div>
-            <Contact bg="bg-[#F1F1F1]" />
         </section>
     )
 }
