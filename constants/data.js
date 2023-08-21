@@ -112,8 +112,8 @@ const userData = {
   resumeUrl:
     "/",
   socialLinks: {
-    linkedin: "https://www.linkedin.com/in/iamwaleedshahid/",
-    github: "https://github.com/iamwaleedshahid"
+    linkedin: "https://www.linkedin.com/in/murtazasarwar/",
+    github: "https://github.com/murtaza7799"
   },
 };
 
