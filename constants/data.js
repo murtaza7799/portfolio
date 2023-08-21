@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "iwaleedshahid",
-  name: "Waleed Shahid",
-  designation: "Thinkific Expert",
-  avatarUrl: "/avatar.jpg",
-  email: "contact@waleedshahid.com",
-  phone: "+8609094885",
-  address: "Lahore, Pakistan.",
+  githubUsername: "murtaza7799",
+  name: "Murtaza Sarwar",
+  designation: "Full Stack Development Expert",
+  avatarUrl: "/avatar.jpeg",
+  email: "murtazasarwar@live.com",
+  phone: "+923114698105",
+  address: "Bahawalpur, Pakistan.",
   projects: [
     {
       title: "StudyPass",

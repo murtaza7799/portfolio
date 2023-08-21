@@ -8,9 +8,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Waleed Shahid - Thinkific Expert",
-    description: `I've been working with Thinkific for over 3 years now. I've worked with over 50 clients and have built over 100 course websites on Thinkific. I've worked with clients like NAS Academy, TwinRay Academy, theChapter Academy, and many more.`,
-    image: "/avatar.png",
+    title: "Murtaza Sarwar - Full Stack Development Expert",
+    description: `I've been working as a Full Stack Developer for over 5 years now. I've worked with over 50 clients and have built over 100 custom full stack applications on ReactJS, NodeJS, NextJS, MERN Stack. I've worked with clients like Rhino Systems, TwinRay Academy, theChapter Academy, and many more.`,
+    image: "/avatar.jpeg",
     type: "website",
     ...customMeta,
   };
@@ -23,19 +23,19 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://thinkific.waleedshahid.com${router.asPath}`}
+          content={`https://murtazasarwar.com${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://thinkific.waleedshahid.com${router.asPath}`}
+          href={`https://murtazasarwar.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Waleed Shahid" />
+        <meta property="og:site_name" content="Murtaza Sarwar" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@virtualwaleed" />
+        <meta name="twitter:site" content="@murtazasarwar" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
